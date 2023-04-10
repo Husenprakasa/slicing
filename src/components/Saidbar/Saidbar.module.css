@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(205, 205, 205);
+  width: 100px;
+  gap: 50px;
+  height: 84vh;
+  padding-top: 32px;
+}
+
+.container img {
+  width: 40px;
+  margin-left: 30px;
+}

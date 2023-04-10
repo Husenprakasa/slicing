@@ -1,12 +1,17 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import Header from "../../components/Header";
+import Saidbar from "../../components/Saidbar";
+import Cart from "../../components/Cart";
+import styles from "./Home.module.css";
 
 const Home = () => {
-  const navigate = useNavigate();
-
   return (
-    <div>
-      <button onClick={() => navigate("/")}>login</button>
+    <div className={styles.container}>
+      <div>
+        <Header />
+        <Saidbar />
+      </div>
+      <Cart />
     </div>
   );
 };
